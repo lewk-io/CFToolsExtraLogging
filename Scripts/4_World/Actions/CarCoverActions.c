@@ -3,7 +3,7 @@ modded class ActionAddCarCover: ActionCoverUncoverCar {
     override void OnFinishProgressServer(ActionData action_data) {
         super.OnFinishProgressServer(action_data);
 
-		if (!action_data.m_Player || !action_data.m_MainItem) return;
+		if (!action_data.m_Player || !action_data.m_Target) return;
 		CarScript CarObject = CarScript.Cast(action_data.m_Target.GetObject());
 		if (!CarObject) CarObject = CarScript.Cast(action_data.m_Target.GetParent());
 		EntityAI CarEntity;

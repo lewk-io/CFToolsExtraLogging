@@ -20,7 +20,14 @@ Action | Function | Description
 Action | Function | Description
 -|-|-
 'ActionAddCarCover' | `ActionAddCarCover OnFinishProgressServer()` | Logs when a player covers a vehicle.
-'ActionRemoveCarCover' | `ActionRemoveCarCover OnFinishProgressServer()` | Logs when a player uncovers a vehicle.
+'ActionRemoveCarCover' | `ActionRemoveCarCover OnFinishProgressServer()` | Logs when a player uncovers a vehicle.+
+
+### CodeLock
+Action | Function | Description
+-|-|-
+'ActionAttachCodeLockToFence' | `ActionAttachCodeLockToFence` | Logs when a player attaches a codelock to a fence.
+'ActionAttachCodeLockToTent' | `ActionAttachCodeLockToTent` | Logs when a player attaches a codelock to a tent.
+'ActionDestroyCodeLockOnFence' | `ActionDestroyCodeLockOnFence`
 
 ### Dr_J0nes's Trader
 Action | Function | Description
@@ -47,3 +54,5 @@ Action | Function | Description
 > Repacking is allowed but be warned; you will not get any updates without coming here to find them.
 > (Repacking is allowed so that you can remove anything you don't need).
 > You may use this on your monetized server.
+
+https://github.com/lewk-io/CFToolsExtraLogging

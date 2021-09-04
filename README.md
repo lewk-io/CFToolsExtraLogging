@@ -27,7 +27,8 @@ Action | Function | Description
 -|-|-
 'ActionAttachCodeLockToFence' | `ActionAttachCodeLockToFence` | Logs when a player attaches a codelock to a fence.
 'ActionAttachCodeLockToTent' | `ActionAttachCodeLockToTent` | Logs when a player attaches a codelock to a tent.
-'ActionDestroyCodeLockOnFence' | `ActionDestroyCodeLockOnFence`
+'ActionDestroyCodeLockOnFence' | `ActionDestroyCodeLockOnFence` | Logs when a player damages a codelock on a fence.
+'ActionDestroyCodeLockOnTent' | `ActionDestroyCodeLockOnTent` | Logs when a player damages a codelock on a tent.
 
 ### Dr_J0nes's Trader
 Action | Function | Description

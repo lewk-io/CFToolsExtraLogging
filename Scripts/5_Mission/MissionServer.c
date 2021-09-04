@@ -8,26 +8,6 @@ modded class MissionServer {
             // Log unlocking doors with lockpick
             GetGameLabs().AddMonitoredAction("ActionUnlockDoors");
         }
-
-        #ifdef HASACTIONLOCKCARANDACTIONUNLOCKCAR
-            Print("HASACTIONLOCKCARANDACTIONUNLOCKCAR");
-        #else
-            Print("NO HASACTIONLOCKCARANDACTIONUNLOCKCAR");
-        #endif
-
-        #ifdef TRADER
-            Print("DRJONESTRADER");
-        #else
-            Print("NO DRJONESTRADER");
-        #endif
-
-        #ifdef MuchCarKey
-            Print("HELKMuchCarKey");
-        #else
-            Print("NO HELKMuchCarKey");
-        #endif
-
-
     }
 
 #ifdef TRADER

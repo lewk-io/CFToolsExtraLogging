@@ -17,15 +17,10 @@ modded class ActionRemoveCarCover : ActionCoverUncoverCar {
     override void OnFinishProgressServer(ActionData action_data) {
         super.OnFinishProgressServer(action_data);
         
-        Print(action_data);
-        Print(action_data.m_Player);
-        Print(action_data.m_Target);
 		if (!action_data.m_Player || !action_data.m_Target) return;
         CarCoverBase CarCovered;
         EntityAI CarEntity = EntityAI.Cast(action_data.m_Target.GetObject());
 		Class.CastTo(CarCovered, CarEntity);
-        Print(CarCovered);
-        Print(CarEntity);
         SendToCFTools(action_data.m_Player, "hands", CarCovered.GetCarClass(), "removed a car cover from");
     }
 }

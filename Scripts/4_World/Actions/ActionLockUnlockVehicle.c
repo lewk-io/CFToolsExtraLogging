@@ -1,4 +1,4 @@
-#ifdef HASACTIONLOCKCARANDACTIONUNLOCKCAR
+#ifdef TRADER
 modded class ActionUnlockVehicle: ActionLockUnlockVehicle {
 	override void OnFinishProgressServer(ActionData action_data) {	
         super.OnFinishProgressServer(action_data);

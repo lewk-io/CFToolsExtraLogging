@@ -31,7 +31,7 @@ Action | Function | Description
 'left a safezone' | `MissionServer OnUpdate()` | Logs when a player has left a safezone and is out of cooldown (when godmode is disabled).
 '[vehicle] unlocked' | `ActionUnlockVehicle` | Logs when a vehicle is unlocked.
 '[vehicle] unlocked from inside' | `ActionUnlockVehicleInside` | Logs when a vehicle is unlocked from inside.
-'[vehicle] lockd' | `ActionLockVehicle` | Logs when a vehicle is locked.
+'[vehicle] locked' | `ActionLockVehicle` | Logs when a vehicle is locked.
 '[vehicle] locked from inside' | `ActionLockVehicleInside` | Logs when a vehicle is locked from inside.
 
 ### MuchCarKey
@@ -39,6 +39,8 @@ Action | Function | Description
 -|-|-
 'successfully picked' | `ActionPickLockOnCar` | Logs when a player successfully picks the lock on a vehicle.
 'failed to pick' | `ActionPickLockOnCar` | Logs when a player fails to pick the lock on a vehicle.
+'unlocked' | `ActionUnlockCar` | Logs when a player unlocks a vehicle.
+'locked' | `ActionLockCar` | Logs when a player locks a vehicle.
 
 
 ## Terms
